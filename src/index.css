@@ -1,0 +1,58 @@
+@import "tailwindcss";
+@theme {
+  --color-constom-red: #d23404;
+  --color-constom-green: #a9efd7;
+
+  --color-constom-50: #ffffff;
+  --color-constom-100: #fcf8f5;
+  --color-constom-300: #a6c1c9;
+  --color-constom-400: #85a9ad;
+  --color-constom-500: #5a7e87;
+  --color-constom-900: #081f26;
+
+  --font-RedHatText-Bold: "RedHatText-Bold";
+  --font-RedHatText-Regular: "RedHatText-Regular";
+  --font-RedHatText-SemiBold: "RedHatText-SemiBold";
+  --font-RedHatText-Italic-VariableFont: "RedHatText-Italic-VariableFont";
+  --font-RedHatText-VariableFont: "RedHatText-VariableFont";
+}
+@font-face {
+  font-family: RedHatText-Italic-VariableFont;
+  src: url("../assets/fonts/RedHatText-Italic-VariableFont_wght.ttf");
+}
+@font-face {
+  font-family: RedHatText-VariableFont_wght;
+  src: url("../assets/fonts/RedHatText-VariableFont_wght.ttf");
+}
+@font-face {
+  font-family: RedHatText-Bold;
+  src: url("./assets/fonts/static/RedHatText-Bold.ttf");
+}
+@font-face {
+  font-family: RedHatText-Regular;
+  src: url("./assets/fonts/static/RedHatText-Regular.ttf");
+}
+@font-face {
+  font-family: RedHatText-SemiBold;
+  src: url("./assets/fonts/static/RedHatText-SemiBold.ttf");
+}
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
