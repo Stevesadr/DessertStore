@@ -1,6 +1,6 @@
 import { useState } from "react";
-import MainBody from "./Components/MainBody";
-import ShopingCard from "./Components/ShopingCard";
+import MainBody from "./components/MainBody";
+import ShopingCard from "./components/ShopingCard";
 
 function App() {
   return (

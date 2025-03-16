@@ -6,6 +6,7 @@ import { zeroPrice } from "../../func/CalculationZeroCount";
 
 const Card = (props) => {
   const data = useSelector((state) => state.shopingCardReducer);
+  console.log(props.items.image.desktop);
   return (
     <div className="p-4 w-full rounded-xl ">
       <div className="w-full relative box-border">
